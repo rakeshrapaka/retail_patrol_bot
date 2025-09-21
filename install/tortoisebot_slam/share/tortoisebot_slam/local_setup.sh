@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.sh

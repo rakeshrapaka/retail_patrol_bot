@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/perception.launch.py
+resource/smart_retail_perception
+smart_retail_perception/__init__.py
+smart_retail_perception/person_detector.py
+smart_retail_perception.egg-info/PKG-INFO
+smart_retail_perception.egg-info/SOURCES.txt
+smart_retail_perception.egg-info/dependency_links.txt
+smart_retail_perception.egg-info/entry_points.txt
+smart_retail_perception.egg-info/requires.txt
+smart_retail_perception.egg-info/top_level.txt
+smart_retail_perception.egg-info/zip-safe

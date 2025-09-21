@@ -1,0 +1,3 @@
+[console_scripts]
+dashboard_node = dashboard.dashboard_node:main
+

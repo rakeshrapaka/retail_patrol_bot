@@ -1,0 +1,30 @@
+[8.855s] Invoking command in '/home/tortoisebot/smart_retail_ws/build/dashboard': PYTHONPATH=/home/tortoisebot/smart_retail_ws/build/dashboard/prefix_override:/home/tortoisebot/smart_retail_ws/install/dashboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tortoisebot/smart_retail_ws/build/dashboard/build --no-deps install_data
+[10.842s] running develop
+[10.844s] /home/tortoisebot/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.845s]   warnings.warn(
+[10.855s] /home/tortoisebot/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.855s]   warnings.warn(
+[12.190s] running egg_info
+[12.191s] creating dashboard.egg-info
+[12.193s] writing dashboard.egg-info/PKG-INFO
+[12.197s] writing dependency_links to dashboard.egg-info/dependency_links.txt
+[12.200s] writing entry points to dashboard.egg-info/entry_points.txt
+[12.202s] writing requirements to dashboard.egg-info/requires.txt
+[12.204s] writing top-level names to dashboard.egg-info/top_level.txt
+[12.215s] writing manifest file 'dashboard.egg-info/SOURCES.txt'
+[12.225s] reading manifest file 'dashboard.egg-info/SOURCES.txt'
+[12.229s] writing manifest file 'dashboard.egg-info/SOURCES.txt'
+[12.458s] running build_ext
+[12.459s] Creating /home/tortoisebot/smart_retail_ws/install/dashboard/lib/python3.8/site-packages/dashboard.egg-link (link to .)
+[12.463s] Installing dashboard_node script to /home/tortoisebot/smart_retail_ws/install/dashboard/lib/dashboard
+[12.465s] 
+[12.466s] Installed /home/tortoisebot/smart_retail_ws/build/dashboard
+[12.468s] running install_data
+[12.473s] creating /home/tortoisebot/smart_retail_ws/install/dashboard/share/ament_index
+[12.476s] creating /home/tortoisebot/smart_retail_ws/install/dashboard/share/ament_index/resource_index
+[12.478s] creating /home/tortoisebot/smart_retail_ws/install/dashboard/share/ament_index/resource_index/packages
+[12.482s] copying resource/dashboard -> /home/tortoisebot/smart_retail_ws/install/dashboard/share/ament_index/resource_index/packages
+[12.501s] copying package.xml -> /home/tortoisebot/smart_retail_ws/install/dashboard/share/dashboard
+[12.519s] creating /home/tortoisebot/smart_retail_ws/install/dashboard/share/dashboard/launch
+[12.523s] copying launch/dashboard.launch.py -> /home/tortoisebot/smart_retail_ws/install/dashboard/share/dashboard/launch
+[13.002s] Invoked command in '/home/tortoisebot/smart_retail_ws/build/dashboard' returned '0': PYTHONPATH=/home/tortoisebot/smart_retail_ws/build/dashboard/prefix_override:/home/tortoisebot/smart_retail_ws/install/dashboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tortoisebot/smart_retail_ws/build/dashboard/build --no-deps install_data

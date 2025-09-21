@@ -1,0 +1,28 @@
+[8.846s] Invoking command in '/home/tortoisebot/smart_retail_ws/build/patrol_manager': PYTHONPATH=/home/tortoisebot/smart_retail_ws/build/patrol_manager/prefix_override:/home/tortoisebot/smart_retail_ws/install/patrol_manager/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tortoisebot/smart_retail_ws/build/patrol_manager/build --no-deps install_data
+[10.852s] running develop
+[10.855s] /home/tortoisebot/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.856s]   warnings.warn(
+[10.866s] /home/tortoisebot/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.867s]   warnings.warn(
+[12.215s] running egg_info
+[12.217s] creating patrol_manager.egg-info
+[12.220s] writing patrol_manager.egg-info/PKG-INFO
+[12.223s] writing dependency_links to patrol_manager.egg-info/dependency_links.txt
+[12.226s] writing entry points to patrol_manager.egg-info/entry_points.txt
+[12.228s] writing requirements to patrol_manager.egg-info/requires.txt
+[12.231s] writing top-level names to patrol_manager.egg-info/top_level.txt
+[12.244s] writing manifest file 'patrol_manager.egg-info/SOURCES.txt'
+[12.257s] reading manifest file 'patrol_manager.egg-info/SOURCES.txt'
+[12.262s] writing manifest file 'patrol_manager.egg-info/SOURCES.txt'
+[12.707s] running build_ext
+[12.708s] Creating /home/tortoisebot/smart_retail_ws/install/patrol_manager/lib/python3.8/site-packages/patrol-manager.egg-link (link to .)
+[12.712s] Installing patrol_node script to /home/tortoisebot/smart_retail_ws/install/patrol_manager/lib/patrol_manager
+[12.716s] 
+[12.717s] Installed /home/tortoisebot/smart_retail_ws/build/patrol_manager
+[12.719s] running install_data
+[12.721s] creating /home/tortoisebot/smart_retail_ws/install/patrol_manager/share/ament_index
+[12.723s] creating /home/tortoisebot/smart_retail_ws/install/patrol_manager/share/ament_index/resource_index
+[12.725s] creating /home/tortoisebot/smart_retail_ws/install/patrol_manager/share/ament_index/resource_index/packages
+[12.727s] copying resource/patrol_manager -> /home/tortoisebot/smart_retail_ws/install/patrol_manager/share/ament_index/resource_index/packages
+[12.729s] copying package.xml -> /home/tortoisebot/smart_retail_ws/install/patrol_manager/share/patrol_manager
+[13.104s] Invoked command in '/home/tortoisebot/smart_retail_ws/build/patrol_manager' returned '0': PYTHONPATH=/home/tortoisebot/smart_retail_ws/build/patrol_manager/prefix_override:/home/tortoisebot/smart_retail_ws/install/patrol_manager/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tortoisebot/smart_retail_ws/build/patrol_manager/build --no-deps install_data

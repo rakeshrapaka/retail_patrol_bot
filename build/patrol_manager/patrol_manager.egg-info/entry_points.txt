@@ -1,0 +1,3 @@
+[console_scripts]
+patrol_node = patrol_manager.patrol_node:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+odom_fusion_node = odom_fusion.ekf_node:main
+

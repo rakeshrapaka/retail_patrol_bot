@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/build/ydlidar/ament_cmake_core/ydlidarConfig-version.cmake

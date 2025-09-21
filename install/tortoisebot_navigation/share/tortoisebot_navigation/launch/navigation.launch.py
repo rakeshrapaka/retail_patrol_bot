@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/src/tortoisebot/tortoisebot_navigation/launch/navigation.launch.py

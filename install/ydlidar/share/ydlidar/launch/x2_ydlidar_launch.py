@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/src/tortoisebot/ydlidar-ros2/launch/x2_ydlidar_launch.py

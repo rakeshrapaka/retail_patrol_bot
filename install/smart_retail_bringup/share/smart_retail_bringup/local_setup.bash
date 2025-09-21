@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/build/smart_retail_bringup/ament_cmake_environment_hooks/local_setup.bash

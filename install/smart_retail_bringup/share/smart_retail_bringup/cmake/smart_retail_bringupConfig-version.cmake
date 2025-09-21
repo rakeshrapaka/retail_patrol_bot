@@ -1,0 +1,1 @@
+/home/tortoisebot/smart_retail_ws/build/smart_retail_bringup/ament_cmake_core/smart_retail_bringupConfig-version.cmake

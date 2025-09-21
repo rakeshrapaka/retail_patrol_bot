@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+patrol_manager/__init__.py
+patrol_manager/patrol_node.py
+patrol_manager.egg-info/PKG-INFO
+patrol_manager.egg-info/SOURCES.txt
+patrol_manager.egg-info/dependency_links.txt
+patrol_manager.egg-info/entry_points.txt
+patrol_manager.egg-info/requires.txt
+patrol_manager.egg-info/top_level.txt
+patrol_manager.egg-info/zip-safe
+resource/patrol_manager

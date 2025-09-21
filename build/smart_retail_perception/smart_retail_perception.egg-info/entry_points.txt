@@ -1,0 +1,3 @@
+[console_scripts]
+person_detector = smart_retail_perception.person_detector:main
+

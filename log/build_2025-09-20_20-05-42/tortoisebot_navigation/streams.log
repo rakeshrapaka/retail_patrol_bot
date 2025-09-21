@@ -1,0 +1,58 @@
+[0.213s] Invoking command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake /home/tortoisebot/smart_retail_ws/src/tortoisebot/tortoisebot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation
+[0.557s] -- The C compiler identification is GNU 9.4.0
+[0.901s] -- The CXX compiler identification is GNU 9.4.0
+[0.942s] -- Check for working C compiler: /usr/bin/cc
+[1.371s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.375s] -- Detecting C compiler ABI info
+[1.822s] -- Detecting C compiler ABI info - done
+[1.893s] -- Detecting C compile features
+[1.894s] -- Detecting C compile features - done
+[1.903s] -- Check for working CXX compiler: /usr/bin/c++
+[2.414s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.424s] -- Detecting CXX compiler ABI info
+[2.992s] -- Detecting CXX compiler ABI info - done
+[3.056s] -- Detecting CXX compile features
+[3.059s] -- Detecting CXX compile features - done
+[3.093s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.316s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.319s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.727s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.116s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.844s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.860s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.865s] -- Added test 'lint_cmake' to check CMake code style
+[4.869s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.878s] -- Added test 'xmllint' to check XML markup files
+[4.897s] -- Configuring done
+[4.909s] -- Generating done
+[4.915s] -- Build files have been written to: /home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation
+[4.951s] Invoked command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake /home/tortoisebot/smart_retail_ws/src/tortoisebot/tortoisebot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation
+[4.954s] Invoking command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake --build /home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation -- -j4 -l4
+[5.175s] Invoked command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake --build /home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation -- -j4 -l4
+[5.335s] Invoking command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake --install /home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation
+[5.403s] -- Install configuration: ""
+[5.407s] -- Execute custom install script
+[5.415s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/launch/navigation.launch.py
+[5.471s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params.yaml
+[5.524s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/ament_index/resource_index/package_run_dependencies/tortoisebot_navigation
+[5.577s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/ament_index/resource_index/parent_prefix_path/tortoisebot_navigation
+[5.633s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.sh
+[5.685s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.dsv
+[5.733s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.sh
+[5.789s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.dsv
+[5.843s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.bash
+[5.899s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.sh
+[5.963s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.zsh
+[6.017s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.dsv
+[6.078s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv
+[6.130s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/ament_index/resource_index/packages/tortoisebot_navigation
+[6.182s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig.cmake
+[6.233s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig-version.cmake
+[6.287s] -- Symlinking: /home/tortoisebot/smart_retail_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/package.xml
+[6.369s] Invoked command in '/home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tortoisebot/smart_retail_ws/install/tortoisebot_control:/home/tortoisebot/smart_retail_ws/install/smart_retail_perception:/home/tortoisebot/smart_retail_ws/install/patrol_manager:/home/tortoisebot/smart_retail_ws/install/odom_fusion:/home/tortoisebot/smart_retail_ws/install/dashboard:/opt/ros/galactic:/opt/ros/galactic
+: /usr/bin/cmake --install /home/tortoisebot/smart_retail_ws/build/tortoisebot_navigation
