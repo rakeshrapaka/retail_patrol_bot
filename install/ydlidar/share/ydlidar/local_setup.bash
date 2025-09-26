@@ -1,1 +1,0 @@
-/home/tortoisebot/smart_retail_ws/build/ydlidar/ament_cmake_environment_hooks/local_setup.bash

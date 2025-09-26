@@ -87,8 +87,12 @@ def generate_launch_description():
     patrol_manager_node = Node(
         package='patrol_manager',
         executable='patrol_node',
-        name='patrol_manager',
-        output='screen'
+        name='patrol_node',
+        output='screen',
+        remappings=[
+            ('/ydlidar_node/scan', '/scan'),   # remap ydlidar scan to /scan
+            ('/scan', '/scan')                 # ensure patrol listens on /scan
+        ]
     )
 
     perception_node = Node(
@@ -126,6 +130,34 @@ def generate_launch_description():
         }]
     )
 
+    raspicam2_node = Node(
+        package='raspicam2',
+        executable='raspicam2_node',
+        name='raspicam2_node',
+        output='screen',
+        remappings=[
+            ('/raspicam2/image_raw', '/camera/image_raw'),  # remap for detector
+            ('/raspicam2/camera_info', '/camera/camera_info')
+        ]
+    )
+
+    person_detector_node = Node(
+        package='smart_retail_perception',
+        executable='person_detector',
+        name='person_detector',
+        output='screen',
+        remappings=[
+            ('/camera/image_raw', '/camera/image_raw')  # ensures it matches
+        ]
+    )
+
+    firmware_node = Node(
+        package='tortoisebot_firmware',
+        executable='differential.py',
+        name='differential_drive_publisher',
+        output='screen'
+    )
+
     # ------------------------------
     # Final LaunchDescription
     # ------------------------------
@@ -160,15 +192,21 @@ def generate_launch_description():
 
         # TortoiseBot base system
         state_publisher_launch_cmd,
-        gazebo_launch_cmd,
+        #gazebo_launch_cmd,
         navigation_launch_cmd,
         cartographer_launch_cmd,
         ydlidar_launch_cmd,
 
-        # Smart Retail Patrol custom system
+        
+        # Camera
+        raspicam2_node,
         camera_node,
+
+        # Smart Retail Patrol custom system
         patrol_manager_node,
+        person_detector_node,
         perception_node,
         odom_fusion_node,
         dashboard_node,
+        firmware_node,
     ])

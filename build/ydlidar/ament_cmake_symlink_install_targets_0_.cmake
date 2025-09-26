@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tortoisebot/smart_retail_ws/build/ydlidar/ydlidar_node" "/home/tortoisebot/smart_retail_ws/build/ydlidar/ydlidar_client" "TARGETS" "ydlidar_node" "ydlidar_client" "DESTINATION" "lib/ydlidar")
